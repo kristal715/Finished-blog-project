@@ -1,0 +1,38 @@
+@import 'navbar.css';
+@import 'footer.css';
+@import'css.css';
+
+blog-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.blog-card {
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+.blog-card h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: purple;
+}
+
+.p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: space-evenly;
+}
+
+
+.li a:hover {
+    background-color: #111;
+    list-style-type: none;
+}
+
+

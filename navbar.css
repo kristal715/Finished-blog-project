@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  grid-template-areas:
+    "head head"
+    "nav  main"
+    "nav  foot";
+  grid-template-rows: 30px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+
+.header-container {
+  grid-area: head;
+  background-color: #8ca0ff;
+  list-style: none;
+}
+
+.navigation-links {
+  grid-area: nav;
+  background-color: #ffa08c;
+  list-style-type: none;
+  display: flex;
+  margin: 50px;
+  padding-left: 12px;
+  justify-content: space-evenly;
+}
+
+.main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+.li {
+  display: flex;
+  color: blue;
+  list-style-type: none;
+  margin: 5px;
+}
+
+
+.li a {
+  display: block;
+  width: 60px;
+  list-style-type: none;
+}
+
+.links {
+  display:list-item;
+  list-style-type: none;
+  list-style: none;
+}

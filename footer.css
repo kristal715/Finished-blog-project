@@ -1,0 +1,16 @@
+.footer {
+  grid-area: footer;
+  background-color: #8cffa0;
+  margin: 5px;
+  padding: 10px;
+  list-style-type: none;
+  display: grid;
+}
+
+
+.socialsharingsection {
+  list-style-type: none;
+  display: flex;
+  margin: 5px;
+  padding: 4px;
+}

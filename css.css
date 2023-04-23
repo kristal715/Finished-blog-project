@@ -1,0 +1,28 @@
+.button {
+    width: 3px padding;
+    margin: bottom 5px;
+    color: black;
+    width: 3px padding;
+    margin-top: 5px;
+}
+
+.outside {
+    list-style-position: outside;
+    list-style-type: circle;
+}
+
+.responsive {
+    width: 60%;
+    height: auto;
+}
+
+.image {
+    width: 50%;
+    height: auto;
+}
+
+.popularpost {
+    width: 25%;
+    height: auto;
+    list-style-type: none;
+}
